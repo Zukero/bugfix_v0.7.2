@@ -1,0 +1,21 @@
+[
+    {
+        "id":"stoutford_castle_3a",
+        "message":"Did you come to serve me? On your knees!",
+        "switchToNPC":"erwyn",
+        "replies":[
+            {
+                "text":"What would I gain from that?",
+                "nextPhraseID":"stoutford_castle_3b"
+            },
+            {
+                "text":"You are very rude and poorly educated. Maybe I should introduce myself? $playername is my name.",
+                "nextPhraseID":"stoutford_castle_3c"
+            },
+            {
+                "text":"I will serve you - my weapon. Attack!",
+                "nextPhraseID":"F"
+            }
+        ]
+    }
+]

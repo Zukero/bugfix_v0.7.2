@@ -35,8 +35,18 @@
                 "nextPhraseID":"cadoren_4a"
             },
             {
-                "text":"Thanks for all the information. I have to leave now.",
+                "text":"Thanks for the information. I have to leave now.",
                 "nextPhraseID":"X"
+            }
+        ]
+    },
+    {
+        "id":"cadoren_0",
+        "message":"Welcome to our wonderful Inn. How can we help you? ",
+        "replies":[
+            {
+                "text":"Who are you?",
+                "nextPhraseID":"cadoren_1"
             }
         ]
     }

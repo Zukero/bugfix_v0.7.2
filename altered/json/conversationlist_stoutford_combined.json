@@ -63,5 +63,26 @@
                 "nextPhraseID":"yolgen_castle_2a"
             }
         ]
+    },
+    {
+        "id":"berbane_140",
+        "message":"(low voice) Well-behaved. \n(loud voice) And now: Mead for everyone! Let's be merry! Forget all sorrows!",
+        "rewards":[
+            {
+                "rewardType":"giveItem",
+                "rewardID":"mead",
+                "value":1
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_quest_gyra",
+                "value":99
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":45
+            }
+        ]
     }
 ]

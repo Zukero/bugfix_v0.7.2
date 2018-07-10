@@ -316,6 +316,7 @@
    <properties>
     <property name="phrase" value="gyra_54"/>
     <property name="requireId" value="base_nondisplay"/>
+    <property name="requireNegation" value="true"/>
     <property name="requireType" value="questProgress"/>
     <property name="requireValue" value="2"/>
    </properties>

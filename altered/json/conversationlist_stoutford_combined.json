@@ -42,7 +42,7 @@
     },
     {
         "id":"cadoren_0",
-        "message":"Welcome to our wonderful Inn. How can we help you? ",
+        "message":"Welcome to our wonderful Inn. How can we help you?",
         "replies":[
             {
                 "text":"Who are you?",

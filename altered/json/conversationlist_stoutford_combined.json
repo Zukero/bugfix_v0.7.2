@@ -49,5 +49,19 @@
                 "nextPhraseID":"cadoren_1"
             }
         ]
+    },
+    {
+        "id":"yolgen_castle_2",
+        "message":"That is unbelievable!",
+        "replies":[
+            {
+                "text":"Well, it was a tough fight, but I managed to slay Lord Erwyn himself.",
+                "nextPhraseID":"yolgen_castle_2a"
+            },
+            {
+                "text":"The undead are no match for me.",
+                "nextPhraseID":"yolgen_castle_2a"
+            }
+        ]
     }
 ]

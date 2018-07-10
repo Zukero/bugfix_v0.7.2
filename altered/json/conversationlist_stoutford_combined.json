@@ -17,5 +17,27 @@
                 "nextPhraseID":"F"
             }
         ]
+    },
+    {
+        "id":"cadoren_4",
+        "message":"The path to Blackwater mountain has been cut off. There are also increasing attacks by monsters. These things have driven down trade, making supplies hard to get.",
+        "replies":[
+            {
+                "text":"So all the food you sell is old?",
+                "nextPhraseID":"cadoren_5"
+            },
+            {
+                "text":"Where is Blackwater mountain?",
+                "nextPhraseID":"cadoran_4b"
+            },
+            {
+                "text":"Why are monster attacks increasing?",
+                "nextPhraseID":"cadoren_4a"
+            },
+            {
+                "text":"Thanks for all the information. I have to leave now.",
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

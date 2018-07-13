@@ -1,0 +1,20 @@
+[
+    {
+        "id":"guynmart_wizard_40",
+        "message":"Be welcome, $playername. I am Rorthron, the world's most famous ringmaker. I know Andor, your brother. He sometimes consulted me about newly found rings.",
+        "replies":[
+            {
+                "text":"You know me? And my brother?",
+                "nextPhraseID":"guynmart_wizard_42"
+            },
+            {
+                "text":"I never met a ringmaker.",
+                "nextPhraseID":"guynmart_wizard_24"
+            },
+            {
+                "text":"Andor! Do you know where he was bound?",
+                "nextPhraseID":"guynmart_wizard_28"
+            }
+        ]
+    }
+]

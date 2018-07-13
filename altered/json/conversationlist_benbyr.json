@@ -1,0 +1,30 @@
+[
+    {
+        "id":"benbyr_story_2",
+        "message":"You look like an aspiring adventurer. Are you willing to do some .. (Benbyr pauses) .. adventuring? He he.",
+        "replies":[
+            {
+                "text":"What are we talking about here?",
+                "nextPhraseID":"benbyr_story_3_1"
+            },
+            {
+                "text":"Depends on what I get in return.",
+                "nextPhraseID":"benbyr_story_3_2"
+            },
+            {
+                "text":"I try to help people wherever they might need help.",
+                "nextPhraseID":"benbyr_story_3_3"
+            }
+        ]
+    },
+    {
+        "id":"benbyr_story_5",
+        "message":"As to the nature of our business, I can't really tell you. Let's just say that our business was of the kind that was mutually beneficial and the guards did not know about it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"benbyr_story_6"
+            }
+        ]
+    }
+]

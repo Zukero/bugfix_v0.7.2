@@ -1,0 +1,12 @@
+[
+    {
+        "id":"tinlyn_story_1",
+        "message":"Hello there. You wouldn't happen to want to help an old shepherd would you?",
+        "replies":[
+            {
+                "text":"What's the problem?",
+                "nextPhraseID":"tinlyn_story_2"
+            }
+        ]
+    }
+]

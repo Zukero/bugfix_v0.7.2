@@ -1,0 +1,27 @@
+[
+    {
+        "id":"flagstone_sentry_return2",
+        "message":"Hello again. Have you found the former warden in Flagstone yet?",
+        "replies":[
+            {
+                "text":"I slew the fomer warden and found a peculiar necklace among his remains.",
+                "nextPhraseID":"flagstone_sentry_23",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"necklace_flagstone",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"Can you tell me the story again?",
+                "nextPhraseID":"flagstone_sentry_3"
+            },
+            {
+                "text":"Not yet. I have to keep looking.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]

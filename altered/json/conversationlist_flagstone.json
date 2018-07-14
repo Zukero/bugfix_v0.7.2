@@ -4,7 +4,7 @@
         "message":"Hello again. Have you found the former warden in Flagstone yet?",
         "replies":[
             {
-                "text":"I slew the fomer warden and found a peculiar necklace among his remains.",
+                "text":"I slew the former warden and found a peculiar necklace among his remains.",
                 "nextPhraseID":"flagstone_sentry_23",
                 "requires":[
                     {

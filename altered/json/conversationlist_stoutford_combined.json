@@ -84,5 +84,55 @@
                 "value":45
             }
         ]
+    },
+    {
+        "id":"odirath_2",
+        "message":"Yes, indeed. My daughter has not come home for some days. I don't know what's happened to her.",
+        "replies":[
+            {
+                "text":"And you have no idea where she might be?",
+                "nextPhraseID":"odirath_2_1"
+            }
+        ]
+    },
+    {
+        "id":"odirath_1_4",
+        "message":"They started attacking the town recently. Nobody is sure why. Their attacks have been unsuccessful, so we are all hoping that they will give up soon and go back to wherever they came from.",
+        "replies":[
+            {
+                "text":"Thanks for the information, but I have to leave. ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks for the information. Do you have anything to trade?",
+                "nextPhraseID":"S"
+            },
+            {
+                "text":"Thanks. I'm looking for my brother, Andor. Has anyone new been through here recently?",
+                "nextPhraseID":"odirath_1"
+            },
+            {
+                "text":"How do I get to Blackwater mountain?",
+                "nextPhraseID":"odirath_1_3"
+            }
+        ]
+    },
+    {
+        "id":"odirath_1_3",
+        "message":"Just follow the path west, but you will have to find a way past the rockfall.",
+        "replies":[
+            {
+                "text":"Thanks for the directions. I'm headed there right now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thanks. What about the monsters?",
+                "nextPhraseID":"odirath_1_4"
+            },
+            {
+                "text":"Thanks for the information. Please show me what you have to trade.",
+                "nextPhraseID":"S"
+            }
+        ]
     }
 ]

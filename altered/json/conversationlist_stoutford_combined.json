@@ -134,5 +134,44 @@
                 "nextPhraseID":"S"
             }
         ]
+    },
+    {
+        "id":"stoutford_widow_5",
+        "message":"He told me that it is very far from here, to the northeast, beyond the river and the mountains.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_6"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_9",
+        "message":"But it would be reckless of me to ask such a young kid as you to go so far to the northeast.",
+        "replies":[
+            {
+                "text":"I've had enough - bye.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Don't worry about me. I can handle myself.",
+                "nextPhraseID":"stoutford_widow_10"
+            },
+            {
+                "text":"I'm an adventurer. I'm afraid of nothing.",
+                "nextPhraseID":"stoutford_widow_10"
+            },
+            {
+                "text":"Remgard. *sigh*. OK, I'll do it.",
+                "nextPhraseID":"stoutford_widow_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"nondisplay_2",
+                        "value":170
+                    }
+                ]
+            }
+        ]
     }
 ]

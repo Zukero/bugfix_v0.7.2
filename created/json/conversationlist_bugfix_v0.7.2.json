@@ -1,0 +1,12 @@
+[
+    {
+        "id":"been_to_remgard",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":170
+            }
+        ]
+    }
+]

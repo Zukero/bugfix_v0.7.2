@@ -1,0 +1,52 @@
+[
+    {
+        "id":"yolgen_rumblings10_0",
+        "message":"Walk in the shadow kid. I have to apologize for my master, Tahalendor.",
+        "replies":[
+            {
+                "text":"Crazy old geezer... What's wrong with him?",
+                "nextPhraseID":"yolgen_rumblings10_1"
+            },
+            {
+                "text":"Can you explain?",
+                "nextPhraseID":"yolgen_rumblings10_1"
+            },
+            {
+                "text":"Let us talk about something different.",
+                "nextPhraseID":"yolgen_initial_0"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_rumblings20_0",
+        "message":"Hello again. Have you found anything about what is causing the noises in the church?",
+        "replies":[
+            {
+                "text":"No. Not yet.",
+                "nextPhraseID":"yolgen_rumblings10_7"
+            },
+            {
+                "text":"Let us talk about something different.",
+                "nextPhraseID":"yolgen_initial_0"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_rumblings50_0",
+        "message":"Hello again. Have you found anything about what is causing the noises in the church? It seems they have stopped.",
+        "replies":[
+            {
+                "text":"No. Not yet.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Yes. I think I found the cause.",
+                "nextPhraseID":"yolgen_rumblings50_1"
+            },
+            {
+                "text":"Let us talk about something different.",
+                "nextPhraseID":"yolgen_initial_0"
+            }
+        ]
+    }
+]

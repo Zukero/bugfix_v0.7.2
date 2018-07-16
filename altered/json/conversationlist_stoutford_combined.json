@@ -51,6 +51,49 @@
         ]
     },
     {
+        "id":"yolgen_surroundings_1a",
+        "message":"That dreadful place has been left abandoned ever since. Recently, however, undead have started pouring out of the prison, and we had to send guards to keep them away from the road. ",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_surroundings_flagstone_4",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100
+                    }
+                ]
+            },
+            {
+                "text":"Can I help you with Flagstone?",
+                "nextPhraseID":"yolgen_flagstone_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":5,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Is there anything I could help you with?",
+                "nextPhraseID":"yolgen_task_0"
+            },
+            {
+                "text":"There was something else I wanted to ask you about.",
+                "nextPhraseID":"yolgen_surroundings_0"
+            }
+        ]
+    },
+    {
         "id":"yolgen_castle_2",
         "message":"That is unbelievable!",
         "replies":[

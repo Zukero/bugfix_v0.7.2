@@ -1,0 +1,22 @@
+[
+    {
+        "id":"been_to_remgard",
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":170
+            }
+        ]
+    },
+    {
+        "id":"graveyardtraveler61",
+        "message":"South of the Duleian road, close to Fallhaven.",
+        "replies":[
+            {
+                "text":"OK. I'll go there now.",
+                "nextPhraseID":"X"
+            }
+        ]
+    }
+]

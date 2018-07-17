@@ -12,5 +12,15 @@
                 "nextPhraseID":"graveyardtraveler61"
             }
         ]
+    },
+    {
+        "id":"algore_32",
+        "message":"We were only halfway there when we were attacked by Plaguestriders. My daughter and I managed to escape\n. . .\n(Hagale takes another long swig from the bottle of Lowyna\u2019s special brew)\n. . . but my wife did not survive.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"algore_33"
+            }
+        ]
     }
 ]

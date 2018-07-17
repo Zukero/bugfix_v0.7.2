@@ -1,0 +1,34 @@
+[
+    {
+        "id":"bwm_combat_ring",
+        "iconID":"items_jewelry:2",
+        "name":"Blackwater ring of combat",
+        "displaytype":"rare",
+        "hasManualPrice":1,
+        "baseMarketCost":595,
+        "category":"ring",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":0,
+                "max":7
+            },
+            "increaseAttackChance":5,
+            "addedConditions":[
+                {
+                    "condition":"blackwater_misery",
+                    "magnitude":1
+                }
+            ]
+        },
+        "hitEffect":{
+            "conditionsSource":[
+                {
+                    "condition":"regen2",
+                    "magnitude":1,
+                    "duration":3,
+                    "chance":"20"
+                }
+            ]
+        }
+    }
+]

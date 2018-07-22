@@ -46,7 +46,7 @@
         "message":"I gave you the text you needed to get that sword. I think some of that gold should be mine. If you don't give me some then I'll take it from you.",
         "replies":[
             {
-                "text":"OK, OK. Here's 1000 gp.",
+                "text":"OK, OK. I guess it's fair that you should get a share. Here's 1000 gp.",
                 "nextPhraseID":"algore_99g",
                 "requires":[
                     {
@@ -57,7 +57,7 @@
                 ]
             },
             {
-                "text":"No way! I got the sword, and the profit is mine!",
+                "text":"No way! I fought to get the sword, and the profit is mine!",
                 "nextPhraseID":"algore_99i"
             }
         ]

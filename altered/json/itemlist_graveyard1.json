@@ -1,0 +1,38 @@
+[
+    {
+        "id":"lifetaker",
+        "iconID":"items_misc_3:231",
+        "name":"LifeTaker",
+        "displaytype":"extraordinary",
+        "baseMarketCost":5045,
+        "category":"lsword",
+        "description":"A fine blade enhanced by undead forces.",
+        "equipEffect":{
+            "increaseAttackDamage":{
+                "min":4,
+                "max":7
+            },
+            "increaseAttackCost":4,
+            "increaseAttackChance":30,
+            "increaseCriticalSkill":0,
+            "increaseBlockChance":0,
+            "setCriticalMultiplier":0.0
+        },
+        "hitEffect":{
+            "conditionsTarget":[
+                {
+                    "condition":"bleeding_wound",
+                    "magnitude":1,
+                    "duration":2,
+                    "chance":"15"
+                },
+                {
+                    "condition":"stunned",
+                    "magnitude":1,
+                    "duration":1,
+                    "chance":"5"
+                }
+            ]
+        }
+    }
+]

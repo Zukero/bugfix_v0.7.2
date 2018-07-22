@@ -224,6 +224,10 @@
             {
                 "text":"There was something else I wanted to ask you about.",
                 "nextPhraseID":"yolgen_surroundings_0"
+            },
+            {
+                "text":"Where do you think they came from?",
+                "nextPhraseID":"yolgen_1"
             }
         ]
     },
@@ -241,7 +245,15 @@
             },
             {
                 "text":"I will clear the castle of undead for you.",
-                "nextPhraseID":"yolgen_castle_0_1"
+                "nextPhraseID":"yolgen_castle_0_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     },
@@ -255,7 +267,15 @@
             },
             {
                 "text":"I will clear the castle of undead for you.",
-                "nextPhraseID":"yolgen_castle_0_1"
+                "nextPhraseID":"yolgen_castle_0_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
             }
         ]
     }

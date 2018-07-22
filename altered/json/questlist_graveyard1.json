@@ -75,6 +75,14 @@
             {
                 "progress":170,
                 "logText":"Been to Remgard"
+            },
+            {
+                "progress":180,
+                "logText":"Talked to Yolgen about the castle"
+            },
+            {
+                "progress":190,
+                "logText":"Talked to Yolgen about Flagstone"
             }
         ]
     },

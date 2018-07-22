@@ -204,6 +204,12 @@
                         "requireID":"flagstone",
                         "value":5,
                         "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100,
+                        "negate":true
                     }
                 ]
             },
@@ -276,6 +282,261 @@
                         "negate":true
                     }
                 ]
+            }
+        ]
+    },
+    {
+        "id":"yolgen_task_0_2",
+        "message":"Well, you look a bit young. But I guess we could still make use of you in these dark times. Let me think about some tasks I can offer you.",
+        "replies":[
+            {
+                "text":"What about the undead in the castle?",
+                "nextPhraseID":"yolgen_castle_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"What about Flagstone prison?",
+                "nextPhraseID":"yolgen_flagstone_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":5,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":70,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"yolgen_task_0",
+        "replies":[
+            {
+                "nextPhraseID":"yolgen_task_0_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_reinforcements",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"not_yet_realized",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_task_0_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_task_0_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":5,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_task_0_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"prim_tunnel",
+                        "value":10,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"not_yet_realized",
+                        "value":10
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_task_0_2_1",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":100,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_task_0_2_2",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":50,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":60,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "nextPhraseID":"yolgen_task_0_1"
+            }
+        ]
+    },
+    {
+        "id":"yolgen_surroundings_1",
+        "message":"Flagstone Prison was built four hundred years ago by house Gorland of Stoutford, and was used until the Noble Wars, when the house was vanguished by it's enemies. They mostly used it to detain people that were worshipping the \"old gods\".",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"yolgen_surroundings_1a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":190
+            }
+        ]
+    },
+    {
+        "id":"yolgen_surroundings_2c",
+        "message":"However, recently more and more of the most foul monsters are coming from the mountain and we have to fend them off. With the rise of undead knights in the castle and Lord Erwyn's demise we struggle more and more.",
+        "replies":[
+            {
+                "text":"That sounds dreadful. Can I help you with the castle?",
+                "nextPhraseID":"yolgen_castle_0",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stoutford_castle",
+                        "value":10,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"Is there anything I could do to help?",
+                "nextPhraseID":"yolgen_task_0"
+            },
+            {
+                "text":"There was something else I wanted to ask you about.",
+                "nextPhraseID":"yolgen_surroundings_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"nondisplay_2",
+                "value":180
+            }
+        ]
+    },
+    {
+        "id":"yolgen_task_0_2_1",
+        "message":"Could you help with Flagstone?",
+        "replies":[
+            {
+                "text":"OK. I will go to the prison.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"I cleared flagstone of an evil demon.",
+                "nextPhraseID":"yolgen_flagstone_10",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":70
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"yolgen_flagstone_0",
+        "message":"If you could help with Flagstone, it would take a big burden off us.",
+        "replies":[
+            {
+                "text":"I have been inside Flagstone, but I will go back and find out more.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":20
+                    },
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"flagstone",
+                        "value":70,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"OK, I will take a look.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Maybe.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"flagstone",
+                "value":5
             }
         ]
     }

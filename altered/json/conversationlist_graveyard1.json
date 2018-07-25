@@ -127,10 +127,6 @@
             },
             {
                 "text":"N",
-                "nextPhraseID":"algore_01"
-            },
-            {
-                "text":"N",
                 "nextPhraseID":"algore_special2",
                 "requires":[
                     {
@@ -139,6 +135,10 @@
                         "value":100
                     }
                 ]
+            },
+            {
+                "text":"N",
+                "nextPhraseID":"algore_01"
             }
         ]
     },
@@ -197,6 +197,10 @@
                         "negate":true
                     }
                 ]
+            },
+            {
+                "text":"Don't breathe on me! I'm leaving!",
+                "nextPhraseID":"X"
             }
         ]
     },

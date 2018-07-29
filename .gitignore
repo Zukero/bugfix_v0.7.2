@@ -3,3 +3,6 @@ altered/drawable
 altered/drawable/*
 created/drawable
 created/drawable/*
+created/drawable.lnk
+tmp/res/values/loadresources.xml
+tmp/res/xml/worldmap.xml

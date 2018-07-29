@@ -1,0 +1,11 @@
+[	{
+        "id": "guynmart_rose",
+        "iconID": "items_japozero:549",
+        "name": "Rose",
+        "category": "other",
+        "description":"Perpetual fragrance flows around this queen of flowers.",
+        "displaytype": "extraordinary",
+        "hasManualPrice": 1,
+        "baseMarketCost": 110,
+    }
+]

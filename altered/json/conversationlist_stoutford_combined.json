@@ -539,5 +539,15 @@
                 "value":5
             }
         ]
+    },
+    {
+        "id":"stoutford_castle_0",
+        "message":"Ah another mortal! You shall be another servant in Lord Erwyn's army! Ha Ha!",
+        "replies":[
+            {
+                "text":"No thank you. Maybe another time.",
+                "nextPhraseID":"F"
+            }
+        ]
     }
 ]

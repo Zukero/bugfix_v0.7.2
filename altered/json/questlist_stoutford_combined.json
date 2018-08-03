@@ -1,0 +1,54 @@
+[
+    {
+        "id":"stn_quest_gyra",
+        "name":"Lost girl looking for lost things",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"The little daughter of Odirath the armorer was missed since several days now. You offered to help search for her."
+            },
+            {
+                "progress":20,
+                "logText":"Odirath's daughter Gyra was hidden in the storeroom of the main house of the castle. She was surprised by the raid on the castle and no longer dared to leave her hiding place.\nShe was looking for Lord Berbanes helmet, which he had forgotten somewhere in the castle."
+            },
+            {
+                "progress":30,
+                "logText":"You offered Gyra to lead her back home safely."
+            },
+            {
+                "progress":40,
+                "logText":"Gyra has the feeling that the helmet is very close."
+            },
+            {
+                "progress":50,
+                "logText":"You found the helmet."
+            },
+            {
+                "progress":60,
+                "logText":"Once back in Stoutford Gyra knew the way and ran to her father Odirath."
+            },
+            {
+                "progress":70,
+                "logText":"Odirath thanks you many thousand times.",
+                "rewardExperience":2000
+            },
+            {
+                "progress":90,
+                "logText":"Lord Berbane slowly took his helmet. Nevertheless, he remained sitting at the table. He probably needs a few more hours without drinks before he can get back to work. If ever.",
+                "rewardExperience":200
+            },
+            {
+                "progress":92,
+                "logText":"Lord Berbane took his helmet. But somehow that does not really satisfy you.",
+                "rewardExperience":200
+            },
+            {
+                "progress":99,
+                "logText":"Lord Berbane is singing merrily about his pretended heroic deeds. What a boaster.",
+                "rewardExperience":200,
+                "finishesQuest":1
+            }
+        ]
+    }
+]

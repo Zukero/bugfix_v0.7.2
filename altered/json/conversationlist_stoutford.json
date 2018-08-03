@@ -139,5 +139,22 @@
                 ]
             }
         ]
+    },
+    {
+        "id":"tahalendor_rumblings106_0",
+        "message":"That is troublesome. I have no idea where he went when he left Stoutford, but Kazaul has always been linked to the Undertell, south of here. Thank you for your help kid.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"tahalendor_rumblings10x_0"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"rumblings",
+                "value":106
+            }
+        ]
     }
 ]

@@ -541,12 +541,210 @@
         ]
     },
     {
-        "id":"stoutford_castle_0",
-        "message":"Ah another mortal! You shall be another servant in Lord Erwyn's army! Ha Ha!",
+        "id":"stoutford_guard_camp2_30",
+        "message":"We saw another horde of undead approach the castle just as we left. We hurried here, so that we can complete our exercise and be back in time to be able to help.",
         "replies":[
             {
-                "text":"No thank you. Maybe another time.",
-                "nextPhraseID":"F"
+                "text":"You mean, you ran away just in time, before you got involved in the fight?",
+                "nextPhraseID":"stoutford_guard_camp2_40"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_guard_camp2_40",
+        "message":"Ow, the way you put it, that doesn't sound nice.",
+        "replies":[
+            {
+                "text":"Cowardice. I'll report that to your commander.",
+                "nextPhraseID":"stoutford_guard_camp2_42"
+            },
+            {
+                "text":"I had better leave now.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"I had better leave now. You do not need to hurry with your exercise. All your comrades have already been killed by the undead.",
+                "nextPhraseID":"X",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"stn_nondisplay",
+                        "value":4
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stoutford_guard_camp1_10",
+        "message":"Hi kid. It is nice and warm here next to the fire. Come and make yourself comfortable.",
+        "replies":[
+            {
+                "text":"Ah, no thank you. I have more interesting things to do.",
+                "nextPhraseID":"stoutford_guard_camp2_10"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_131",
+        "message":"$playername! What do you think you are doing?!",
+        "switchToNPC":"mikhail",
+        "replies":[
+            {
+                "text":"Mikhail! You are here?",
+                "nextPhraseID":"stn_colonel_131_2"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_131_2",
+        "message":"We need you back home. Andor is back since a long time ago, and we have our hands full trying to control the rat plague.",
+        "replies":[
+            {
+                "text":"Oh dear, really?",
+                "nextPhraseID":"stn_colonel_131_3"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_131_3",
+        "message":"Come with me now. And give me back my ring.",
+        "replies":[
+            {
+                "text":"Sure, here is your ring. It was very useful in the beginning, but I don't need it anymore.",
+                "nextPhraseID":"stn_colonel_131_4a",
+                "requires":[
+                    {
+                        "requireType":"inventoryRemove",
+                        "requireID":"ring_mikhail",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"I don't have it anymore, sorry.",
+                "nextPhraseID":"stn_colonel_131_4b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_mikhail",
+                        "value":1,
+                        "negate":true
+                    },
+                    {
+                        "requireType":"wear",
+                        "requireID":"ring_mikhail",
+                        "value":1,
+                        "negate":true
+                    }
+                ]
+            },
+            {
+                "text":"(Lie) I don't have it anymore, sorry.",
+                "nextPhraseID":"stn_colonel_131_4b",
+                "requires":[
+                    {
+                        "requireType":"inventoryKeep",
+                        "requireID":"ring_mikhail",
+                        "value":1
+                    }
+                ]
+            },
+            {
+                "text":"(Lie) I don't have it anymore, sorry. This ring on my finger just looks similar.",
+                "nextPhraseID":"stn_colonel_131_4b",
+                "requires":[
+                    {
+                        "requireType":"wear",
+                        "requireID":"ring_mikhail",
+                        "value":1
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_131_4a",
+        "message":"[Ring taken]\nThank you, stupid boy.",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"stn_colonel_131_10a"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_colonel",
+                "value":131
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stn_colonel_mons3"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_131_4b",
+        "message":"You think you are clever? Useless kid!",
+        "replies":[
+            {
+                "text":"What?",
+                "nextPhraseID":"stn_colonel_131_10b"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_colonel",
+                "value":131
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"stn_colonel_mons3b"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_132_20a",
+        "message":"A poser can imitate someone you have had in mind recently. Also, if you give him some object, then he can turn it into a second duplicate.",
+        "replies":[
+            {
+                "text":"Yes, but two Mikhails were a little bit too conspicuous.",
+                "nextPhraseID":"stn_colonel_140"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_132_20b",
+        "message":"A poser can imitate a person you have had in mind recently.",
+        "replies":[
+            {
+                "text":"So Mikhail wasn't really here and I didn't kill him. I'm relieved.",
+                "nextPhraseID":"stn_colonel_140"
+            }
+        ]
+    },
+    {
+        "id":"stn_colonel_132",
+        "message":"I am impressed. You won the fight with my poser.",
+        "switchToNPC":"stn_colonel",
+        "replies":[
+            {
+                "text":"A Poser? What's that?",
+                "nextPhraseID":"stn_colonel_132_10"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_colonel",
+                "value":132
+            },
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":140
             }
         ]
     }

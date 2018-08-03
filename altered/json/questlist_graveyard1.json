@@ -152,5 +152,68 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"waterwayacave",
+        "name":"Just the beginning",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"In a lonely house east of Loneford, I met an old man named Cithurn."
+            },
+            {
+                "progress":12,
+                "logText":"Cithurn told me he needs an experienced fighter to help with his problem."
+            },
+            {
+                "progress":15,
+                "logText":"Cithurn told me that the surrounding forest has been under invasion by monsters for several weeks."
+            },
+            {
+                "progress":20,
+                "logText":"Cithurn heard something similar was occurring in Charwood until a young adventurer killed a vile beast in the mine beneath the city."
+            },
+            {
+                "progress":25,
+                "logText":"I told Cithurn about my role in Charwood and of my battle with Thukuzun."
+            },
+            {
+                "progress":30,
+                "logText":"Cithurn did not remember if the forest invasion began before the events in Charwood or after. However, based on my experiences in Charwood, Cithurn believes there is a connection between the two."
+            },
+            {
+                "progress":35,
+                "logText":"I promised Cithurn I would investigate the source of the monster invasion in the forest. I will have to pass though the forest to access an entrance to a cave northeast of Cithurn\u2019s home"
+            },
+            {
+                "progress":40,
+                "logText":"I found the entrance to the cave."
+            },
+            {
+                "progress":45,
+                "logText":"I reached the end of the cave system. The air became damper the deeper I went."
+            },
+            {
+                "progress":50,
+                "logText":"Among the cold and damp lower parts of the cave, I encountered another dragon-like creature. This must be the source of all the chaos in the forest above. I should attempt to kill it."
+            },
+            {
+                "progress":55,
+                "logText":"I killed the monster called Tesrekan and took one of its bones as proof. I should venture back to Cithurn to tell him about it."
+            },
+            {
+                "progress":60,
+                "logText":"I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. As we agreed, I returned his talisman.",
+                "rewardExperience":7000,
+                "finishesQuest":1
+            },
+            {
+                "progress":70,
+                "logText":"I presented one of the bones from the corpse of Tesrekan to Cithurn. He was happy to hear that I killed the source of the monster invasion. I decided to keep his talisman as payment for my hard work.",
+                "rewardExperience":4500,
+                "finishesQuest":1
+            }
+        ]
     }
 ]

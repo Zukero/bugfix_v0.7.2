@@ -1,0 +1,10 @@
+[
+    {
+        "id":"guynmart_child",
+        "name":"Stuephant",
+        "iconID":"monsters_maksiu1:0",
+        "unique":1,
+        "monsterClass":"humanoid",
+        "phraseID":"guynmart_child_10"
+    }
+]

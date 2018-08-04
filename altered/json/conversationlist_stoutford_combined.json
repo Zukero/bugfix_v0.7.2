@@ -771,12 +771,19 @@
         ]
     },
     {
-        "id":"stoutford_castle_0",
-        "message":"Ah another mortal! You shall be another servant in Lord Erwyn's army! Ha Ha!",
+        "id":"caeda_root50_4",
+        "message":"Thank you so much! I wish you safe travels back to Stoutford. If you want to go to the glade next time you are in Remgard, just ask me for the key.",
         "replies":[
             {
-                "text":"No thank you. Maybe another time.",
-                "nextPhraseID":"F"
+                "text":"Thank you. I will leave now.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"secret_garden",
+                "value":60
             }
         ]
     }

@@ -747,5 +747,27 @@
                 "value":140
             }
         ]
+    },
+    {
+        "id":"yolgen_castle_6",
+        "message":"That is it. The ring is destroyed. I wonder where it came from. Maybe from the depths of Mt. Galmore, or some mischievous traveller put it on Lord Erwyn's remains? Anyway, my friend, I and the people of Stoutford are most grateful.",
+        "switchToNPC":"yolgen",
+        "replies":[
+            {
+                "text":"Thank you. ",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"Thank you. Shadow be with you.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stoutford_castle",
+                "value":50
+            }
+        ]
     }
 ]

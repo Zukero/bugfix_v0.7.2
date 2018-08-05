@@ -796,5 +796,36 @@
                 "nextPhraseID":"F"
             }
         ]
+    },
+    {
+        "id":"blornvale_s1_3",
+        "message":"What did you expect? You are a kid after all. I can't give you strong potions!",
+        "replies":[
+            {
+                "text":"You are right. Have a nice day.",
+                "nextPhraseID":"X"
+            },
+            {
+                "text":"It is not for me of course. My father and his men are fighting in Flagstone right now. They urgently need some useful potions, not soap! I think three potions of the brave would do it, if you happen to have them. And possibly more, if it is good stuff.",
+                "nextPhraseID":"blornvale_s1_4"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_s1_4",
+        "message":"Ah. Oh. That changes everything. Wait a second.",
+        "replies":[
+            {
+                "text":"I'm in a hurry.",
+                "nextPhraseID":"blornvale_shop2"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":202
+            }
+        ]
     }
 ]

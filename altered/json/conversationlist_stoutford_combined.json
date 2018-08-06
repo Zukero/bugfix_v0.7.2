@@ -827,5 +827,32 @@
                 "value":202
             }
         ]
+    },
+    {
+        "id":"stoutford_widow_roots4045_9",
+        "message":"Our priest, Tahalendor, was convinced by my uncle, Blornvale, my father's own brother.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"stoutford_widow_roots4045_10"
+            }
+        ]
+    },
+    {
+        "id":"stoutford_widow_thorns40_2",
+        "message":"Best would be Tahalendor himself. Yes, you must persuade the priest to be present when Blornvale tells the whole story.",
+        "replies":[
+            {
+                "text":"Tahalendor? How can I do that?",
+                "nextPhraseID":"stoutford_widow_thorns40_3"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":50
+            }
+        ]
     }
 ]

@@ -8,5 +8,121 @@
                 "value":170
             }
         ]
+    },
+    {
+        "id":"blornvale_thorns72_10",
+        "message":"That was - a potion of truth! How dare you! Did you think I wouldn't recognize it?",
+        "replies":[
+            {
+                "text":"it was worth a try.",
+                "nextPhraseID":"X"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":74
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72_20",
+        "message":"You gave me a potion of truth! How dare you! Did you think I wouldn't recognize it?",
+        "replies":[
+            {
+                "text":"That will not help you. You are forced to tell the truth.",
+                "nextPhraseID":"blornvale_thorns72_30"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"tahalendor2",
+                "mapName":"stoutford_potion"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72_30",
+        "message":"I don't think so. I'm not without reason a potion maker and have an antidote for it.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_thorns72_40"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72_40",
+        "message":"Ah, I see, Tahalendor is here too, fine. Tahalendor, here is a stupid little kid with too much imagination. Please take it with you.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_thorns72_50"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72_50",
+        "message":"Sorry Blornvale, first I have to ask you if you killed Aryfora's father, your own brother?",
+        "switchToNPC":"tahalendor2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_thorns72_60"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72_60",
+        "message":"Of course not. Nobody is sadder about the loss than me.",
+        "switchToNPC":"stoutford_alchemist",
+        "replies":[
+            {
+                "text":"He lies. Can't you see?",
+                "nextPhraseID":"blornvale_thorns72_70"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72_70",
+        "message":"Here, Tahalendor, I'll give you a bottle of your favorite potion. And please take this child with you when you go.",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_thorns72_80"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72_80",
+        "message":"I will, sorry for disturbing you.",
+        "switchToNPC":"tahalendor2",
+        "replies":[
+            {
+                "text":"N",
+                "nextPhraseID":"blornvale_thorns72_90"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72_90",
+        "message":"And you child, get away now and tell no more fairy tales.",
+        "replies":[
+            {
+                "text":"But ...",
+                "nextPhraseID":"blornvale_thorns72_92"
+            }
+        ]
+    },
+    {
+        "id":"blornvale_thorns72_92",
+        "message":"No more words. Go now!",
+        "replies":[
+            {
+                "nextPhraseID":"X"
+            }
+        ]
     }
 ]

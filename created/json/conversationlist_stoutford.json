@@ -1,0 +1,15 @@
+[
+    {
+        "id":"tahalendor2_10",
+        "message":"What now?"
+    },
+    {
+        "id":"tahalendor2_20",
+        "message":"Well, I don't really believe it, but we could try. Blornvale, how did you kill Aryforas father, your own brother?",
+        "replies":[
+            {
+                "nextPhraseID":"blornvale_thorns72_60"
+            }
+        ]
+    }
+]

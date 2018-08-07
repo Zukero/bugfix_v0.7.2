@@ -50,5 +50,73 @@
                 "finishesQuest":1
             }
         ]
+    },
+    {
+        "id":"thorns_vengeance",
+        "name":"The thorns of vengeance",
+        "showInLog":1,
+        "stages":[
+            {
+                "progress":10,
+                "logText":"Aryfora in Stoutford needs my help to prove her uncle, Blornvale, Stoutford's alchemist, killed her father."
+            },
+            {
+                "progress":20,
+                "logText":"She needs me to purchase three potions of the brave from Blornvale and return to her."
+            },
+            {
+                "progress":30,
+                "logText":"I have returned with the three potions, and gave them to her."
+            },
+            {
+                "progress":40,
+                "logText":"She gave me a potion of truth."
+            },
+            {
+                "progress":50,
+                "logText":"She wants me to give that potion to Blornvale, and make him confess his crimes. I should have Tahalendor as a witness."
+            },
+            {
+                "progress":60,
+                "logText":"I agreed to make Blornvale drink that potion."
+            },
+            {
+                "progress":65,
+                "logText":"Tahalendor agreed to go with me to the alchemist's house to hear Blornvale's confession."
+            },
+            {
+                "progress":70,
+                "logText":"Blornvale drank the potion.",
+                "rewardExperience":1500
+            },
+            {
+                "progress":71,
+                "logText":"Tahalendor came to hear Blonvale confession."
+            },
+            {
+                "progress":72,
+                "logText":"Blornvale confessed to killing Aryfora's father. Unfortunately there is no witness."
+            },
+            {
+                "progress":74,
+                "logText":"Blornvale now understands what you were trying to do. You will no longer be able to help Aryfora get back her shop."
+            },
+            {
+                "progress":76,
+                "logText":"It's all your fault that Aryfora is crying now.",
+                "rewardExperience":5,
+                "finishesQuest":1
+            },
+            {
+                "progress":80,
+                "logText":"Blornvale confessed to killing Aryfora's father in the presence of Tahalendor."
+            },
+            {
+                "progress":90,
+                "logText":"Aryfora regained her father's shop.",
+                "rewardExperience":4000,
+                "finishesQuest":1
+            }
+        ]
     }
 ]

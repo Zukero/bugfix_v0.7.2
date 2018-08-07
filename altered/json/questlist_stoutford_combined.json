@@ -102,6 +102,10 @@
                 "logText":"Blornvale now understands what you were trying to do. You will no longer be able to help Aryfora get back her shop."
             },
             {
+                "progress":75,
+                "logText":"Tahalendor wouldn't believe your story. You will no longer be able to help Aryfora get back her shop."
+            },
+            {
                 "progress":76,
                 "logText":"It's all your fault that Aryfora is crying now.",
                 "rewardExperience":5,

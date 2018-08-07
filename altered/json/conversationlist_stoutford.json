@@ -161,6 +161,16 @@
         "id":"tahalendor2_0",
         "replies":[
             {
+                "nextPhraseID":"blornvale_thorns72_92",
+                "requires":[
+                    {
+                        "requireType":"questProgress",
+                        "requireID":"thorns_vengeance",
+                        "value":75
+                    }
+                ]
+            },
+            {
                 "nextPhraseID":"tahalendor2_20",
                 "requires":[
                     {

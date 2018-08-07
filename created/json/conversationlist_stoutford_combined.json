@@ -10,6 +10,16 @@
         ]
     },
     {
+        "id":"stoutford_widow_thorns72_70",
+        "message":"Any news about the murderer?",
+        "replies":[
+            {
+                "text":"Yes, but it's not good news. Tahalendor won't believe me.",
+                "nextPhraseID":"stoutford_widow_thorns74_1"
+            }
+        ]
+    },
+    {
         "id":"blornvale_thorns72_10",
         "message":"That was - a potion of truth! How dare you! Did you think I wouldn't recognize it?",
         "replies":[
@@ -114,15 +124,17 @@
                 "text":"But ...",
                 "nextPhraseID":"blornvale_thorns72_92"
             }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"thorns_vengeance",
+                "value":75
+            }
         ]
     },
     {
         "id":"blornvale_thorns72_92",
-        "message":"No more words. Go now!",
-        "replies":[
-            {
-                "nextPhraseID":"X"
-            }
-        ]
+        "message":"No more words. Go now!"
     }
 ]

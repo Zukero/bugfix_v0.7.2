@@ -1150,5 +1150,42 @@
                 "nextPhraseID":"blornvale_thorns72_10"
             }
         ]
+    },
+    {
+        "id":"caeda_root60_2",
+        "message":"Here is the key. I will move to the glade and retire there. It is the most beautiful place in the world.",
+        "replies":[
+            {
+                "text":"So I will meet you there. Bye.",
+                "nextPhraseID":"R"
+            }
+        ],
+        "rewards":[
+            {
+                "rewardType":"questProgress",
+                "rewardID":"stn_nondisplay",
+                "value":205
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"caeda",
+                "mapName":"remgard0"
+            },
+            {
+                "rewardType":"spawnAll",
+                "rewardID":"caeda",
+                "mapName":"lakecave2"
+            },
+            {
+                "rewardType":"giveItem",
+                "rewardID":"glade_key",
+                "value":1
+            },
+            {
+                "rewardType":"removeSpawnArea",
+                "rewardID":"lakecave2_1",
+                "mapName":"lakecave2"
+            }
+        ]
     }
 ]

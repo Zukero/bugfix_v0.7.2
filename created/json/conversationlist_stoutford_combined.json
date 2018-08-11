@@ -55,7 +55,7 @@
     },
     {
         "id":"blornvale_thorns72_30",
-        "message":"I don't think so. I'm not without reason a potion maker and have an antidote for it.",
+        "message":"I don't think so. After all, I'm a potion maker and I have an antidote for it.",
         "replies":[
             {
                 "text":"N",
@@ -118,7 +118,7 @@
     },
     {
         "id":"blornvale_thorns72_90",
-        "message":"And you child, get away now and tell no more fairy tales.",
+        "message":"And you child, go away now and tell no more fairy tales.",
         "replies":[
             {
                 "text":"But ...",
